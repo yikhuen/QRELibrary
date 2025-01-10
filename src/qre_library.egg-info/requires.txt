@@ -1,0 +1,5 @@
+numpy
+matplotlib
+scipy
+qiskit
+qiskit-finance

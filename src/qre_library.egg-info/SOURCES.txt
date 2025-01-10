@@ -1,0 +1,10 @@
+setup.py
+src/qre_library/__init__.py
+src/qre_library/classical_monte_carlo.py
+src/qre_library/quantum_qae.py
+src/qre_library/quantum_statevector.py
+src/qre_library.egg-info/PKG-INFO
+src/qre_library.egg-info/SOURCES.txt
+src/qre_library.egg-info/dependency_links.txt
+src/qre_library.egg-info/requires.txt
+src/qre_library.egg-info/top_level.txt
