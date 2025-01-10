@@ -23,9 +23,20 @@ cd QRELibrary
 
 ### Create a Python Virtual Environment (Optional but Recommended)
 ```bash
-python -m venv venv
-source venv/bin/activate      # On macOS/Linux
-venv\Scripts\activate         # On Windows
+python -m venv qreenv
+source qreenv/bin/activate      # On macOS/Linux
+qreenv\Scripts\activate         # On Windows
+```
+### Install the library
+Install the library in editable mode to use in notebooks.
+```bash
+pip install -e .
+```
+
+### Configure Jupyter Notebook Kernel
+```bash
+pip install notebook ipykernel
+python -m ipykernel install --user --name=qreenv --display-name "Python (qreenv)"
 ```
 
 ### Install Dependencies
@@ -126,23 +137,6 @@ pip install -r requirements.txt
 ```
 
 ---
-
-## Contributing
-
-### Create a New Branch
-```bash
-git checkout -b my-feature-branch
-```
-
-### Commit Your Changes
-```bash
-git commit -m "Add a new feature"
-```
-
-### Push Your Changes
-```bash
-git push origin my-feature-branch
-```
 
 ---
 
