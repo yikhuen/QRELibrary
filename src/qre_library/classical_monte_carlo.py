@@ -4,10 +4,6 @@ import math
 import numpy as np
 from scipy.stats import norm
 
-import math
-import numpy as np
-from scipy.stats import norm
-
 def simulate_stock_paths(S0, r, sigma, T, t, M, seed):
     """
     Simulate stock price paths using geometric Brownian motion.
