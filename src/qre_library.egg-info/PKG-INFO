@@ -1,4 +1,4 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.2
 Name: qre_library
 Version: 0.1.0
 Summary: A small Python library demonstrating Quantum Risk Estimation
@@ -8,3 +8,6 @@ Requires-Dist: matplotlib
 Requires-Dist: scipy
 Requires-Dist: qiskit
 Requires-Dist: qiskit-finance
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

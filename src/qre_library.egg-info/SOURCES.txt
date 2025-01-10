@@ -1,3 +1,4 @@
+README.md
 setup.py
 src/qre_library/__init__.py
 src/qre_library/classical_monte_carlo.py
